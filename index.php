@@ -46,21 +46,24 @@
       </div>
     </form>
 
-    <table>
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Nome</th>
-          <th>E-mail</th>
-          <th>Telefone</th>
-          <th>Endereço</th>
-          <th>Gênero</th>
-        </tr>
-      </thead>
-      <tbody>
-        <?php require_once 'includes/show_user.php' ?>
-      </tbody>
-    </table>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Telefone</th>
+            <th>Endereço</th>
+            <th>Gênero</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php require_once 'includes/show_user.php' ?>
+        </tbody>
+      </table>
+    </div>
   </div>
 </body>
 

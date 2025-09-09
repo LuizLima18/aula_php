@@ -20,6 +20,7 @@ try {
         <td><?= htmlspecialchars($row['telefone']) ?></td>
         <td><?= htmlspecialchars($row['endereco']) ?></td>
         <td><?= htmlspecialchars($row['genero']) ?></td>
+        <td><a href="alterar-cliente.php?id=<?= $row['id']?>" class="btn-warning">Alterar</a> <a href="includes/delete-user.php?id=<?= $row['id']?>" onclick="return confirm('Você deseja mesmo excluir essa porra?');" class="btn-danger">Excluir</a></td>
       </tr>
 
 <?php

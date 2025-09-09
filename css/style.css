@@ -54,6 +54,14 @@ button:hover {
   background: #0056b3;
 }
 
+.table-wrapper{
+  max-height: 400px;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+
 table {
   width: 100%;
   margin-top: 20px;
@@ -74,4 +82,24 @@ td {
 
 th {
   background: #f4f4f4;
+}
+
+.btn-warning{
+  background-color: #ffe600;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-danger{
+  background-color: #ff3300;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+  text-decoration: none;
+}
+
+a{
+  display: flex;
 }
