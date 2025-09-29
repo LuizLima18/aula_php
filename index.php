@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Formulário Simples</title>
+  <title>Formulário Simprão</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
